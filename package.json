@@ -4,7 +4,8 @@
   "description": "Projeto para documentação de aula sobre automação de teste de UI com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --browser electron",
+    "cy:dash" : "npx cypress run --record --key aa247617-71b2-4516-8765-543f309551c5"
   },
   "keywords": [],
   "author": "",
